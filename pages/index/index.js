@@ -44,5 +44,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  changeMotto() {
+    this.setData({
+      motto: this.data.motto + '~'
+    })
   }
 })

@@ -12,8 +12,13 @@
   height: 128rpx;
   margin: 20rpx;
   border-radius: 50%;
+  animation: rotateAvatar linear 10s infinite;
 }
-
+@keyframes rotateAvatar{
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .usermotto {
   margin-top: 200px;
 }
