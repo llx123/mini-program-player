@@ -5,7 +5,8 @@ Page({
   data: {
     logs: []
   },
-  onLoad() {
+  onLoad(options) {
+    console.log(options, 233);
     this.setData({
       logs: (wx.getStorageSync('logs') || []).map(log => {
         return {
