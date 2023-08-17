@@ -1,5 +1,8 @@
 <!--index.wxml-->
 <view class="container">
+  <view bindtap="bindHomeTap">
+    进入首页
+  </view>
   <view class="userinfo">
     <block wx:if="{{canIUseOpenData}}">
       <view class="userinfo-avatar" bindtap="bindViewTap">

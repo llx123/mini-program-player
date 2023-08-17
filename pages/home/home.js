@@ -1,4 +1,4 @@
-// pages/swipe.js
+// pages/home.js
 Page({
 
   /**
