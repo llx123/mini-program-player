@@ -1,2 +1,7 @@
-<!--pages/home.wxml-->
-<text>pages/home.wxml</text>
+<view>
+  <swiper indicator-dots autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <swiper-item wx:for="{{list}}" wx:key="*this">
+      <view>{{item}}</view>
+    </swiper-item>
+  </swiper>
+</view>

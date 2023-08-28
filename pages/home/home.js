@@ -5,6 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
+    list:['A', 'B', 'C'],
+    indicatorDots: true,
+    vertical: false,
+    autoplay: false,
+    interval: 2000,
+    duration: 500
 
   },
 
