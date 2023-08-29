@@ -1,7 +1,14 @@
 <view>
-  <swiper indicator-dots autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <swiper
+    indicator-dots
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+    class="wrap"
+  >
     <swiper-item wx:for="{{list}}" wx:key="*this">
       <view>{{item}}</view>
     </swiper-item>
   </swiper>
+  <text class="iconfont icon-jubao"></text>
 </view>

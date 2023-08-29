@@ -1,1 +1,5 @@
 /* pages/home.wxss */
+.wrap {
+  height: 150px;
+  background: #ccc;
+}

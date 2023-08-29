@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4230093 */
+  src: url('//at.alicdn.com/t/c/font_4230093_rkcunlgatqg.woff2?t=1693325767363') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4230093_rkcunlgatqg.woff?t=1693325767363') format('woff'),
+       url('//at.alicdn.com/t/c/font_4230093_rkcunlgatqg.ttf?t=1693325767363') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jubao:before {
+  content: "\e61d";
+}
+
+.icon-anquanbaozhang:before {
+  content: "\e61e";
+}
+
+.icon-xiaoxi-zhihui:before {
+  content: "\e61f";
+}
+
+.icon-xihuan:before {
+  content: "\e620";
+}
+
+.icon-gengduo:before {
+  content: "\e621";
+}
+
+.icon-shouye-zhihui:before {
+  content: "\e622";
+}
+
+.icon-gerenzhongxin-zhihui:before {
+  content: "\e623";
+}
+
+.icon-kandian-zhihui:before {
+  content: "\e624";
+}
+
+.icon-fanhui:before {
+  content: "\e625";
+}
+
+.icon-guanbi:before {
+  content: "\e626";
+}
+
+.icon-a-xiala2:before {
+  content: "\e627";
+}
+
+.icon-bianji:before {
+  content: "\e628";
+}
+
+.icon-jinru:before {
+  content: "\e629";
+}
+
+.icon-tishi:before {
+  content: "\e62a";
+}
