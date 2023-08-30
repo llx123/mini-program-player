@@ -10,8 +10,29 @@ Page({
     vertical: false,
     autoplay: false,
     interval: 2000,
-    duration: 500
-
+    duration: 500,
+    navBarList: [
+      {
+        text: "每日推荐",
+        icon: "icon-tuijian",
+      },
+      {
+        text: "歌单",
+        icon: "icon-gedan",
+      },
+      {
+        text: "排行榜",
+        icon: "icon-paihangbang",
+      },
+      {
+        text: "电台",
+        icon: "icon-diantai",
+      },
+      {
+        text: "直播",
+        icon: "icon-zhibo",
+      }
+    ]
   },
 
   /**

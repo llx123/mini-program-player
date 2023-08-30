@@ -10,5 +10,10 @@
       <view>{{item}}</view>
     </swiper-item>
   </swiper>
-  <text class="iconfont icon-jubao"></text>
+  <view class="nav-wrap">
+    <view class="nav-item" wx:for="{{navBarList}}" wx:key="text">
+      <text class="iconfont {{ item.icon }}"></text>
+      <text>{{item.text}}</text>
+    </view>
+  </view>
 </view>
